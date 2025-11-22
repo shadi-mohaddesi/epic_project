@@ -113,19 +113,30 @@ async function showLeftHeroById(id) {
 }
 
 let interval;
-
 export async function startLeftCycle() {
-  let resp = await fetch("http://localhost:3000/leftHero");
-  let heroes = await resp.json();
+  try {
+    const resp = await fetch(
+      "https://raw.githubusercontent.com/shadi-mohaddesi/db-epic/main/db.json"
+    );
+    const data = await resp.json();
 
-  let currentIndex = 0;
-  interval = setInterval(() => {
-    currentIndex++;
-    if (currentIndex >= heroes.length) {
-      currentIndex = 0;
+    const heroes = data.leftHero; 
+    if (!Array.isArray(heroes)) {
+      console.warn("leftHero is not an array in db.json");
+      return;
     }
-    showLeftHeroById(heroes[currentIndex].id);
-  }, 3000);
+
+    let currentIndex = 0;
+    let interval = setInterval(() => {
+      currentIndex++;
+      if (currentIndex >= heroes.length) {
+        currentIndex = 0;
+      }
+      showLeftHeroById(heroes[currentIndex].id);
+    }, 3000);
+  } catch (err) {
+    console.error("Error in startLeftCycle:", err);
+  }
 }
 
 export default getRightData;
