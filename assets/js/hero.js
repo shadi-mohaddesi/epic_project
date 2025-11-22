@@ -112,31 +112,58 @@ async function showLeftHeroById(id) {
   }
 }
 
-let interval;
+// hero.js
+
+let interval = null;
+
 export async function startLeftCycle() {
   try {
     const resp = await fetch(
-      "https://raw.githubusercontent.com/shadi-mohaddesi/db-epic/main/db.json"
+      "https://raw.githubusercontent.com/shadi-mohaddesi/db-epic/main/db.json",
+      { cache: "no-store" } // جلوگیری از کش شدن
     );
     const data = await resp.json();
 
-    const heroes = data.leftHero; 
-    if (!Array.isArray(heroes)) {
-      console.warn("leftHero is not an array in db.json");
+    const heroes = Array.isArray(data.leftHero) ? data.leftHero : [];
+    if (!heroes.length) {
+      console.warn("leftHero is empty or not an array");
       return;
     }
 
+    // اگر قبلاً interval فعال بوده، پاک کن
+    stopLeftCycle();
+
+    // رندر اولیه
     let currentIndex = 0;
-    let interval = setInterval(() => {
-      currentIndex++;
-      if (currentIndex >= heroes.length) {
-        currentIndex = 0;
-      }
-      showLeftHeroById(heroes[currentIndex].id);
+    callShow(heroes[currentIndex].id);
+
+    // چرخه‌ی چرخش
+    interval = setInterval(() => {
+      currentIndex = (currentIndex + 1) % heroes.length;
+      callShow(heroes[currentIndex].id);
     }, 3000);
   } catch (err) {
     console.error("Error in startLeftCycle:", err);
   }
 }
+
+export function stopLeftCycle() {
+  if (interval) {
+    clearInterval(interval);
+    interval = null;
+  }
+}
+
+// کمک‌تابع: سازگار با اسکوپ‌های مختلف
+function callShow(id) {
+  if (typeof showLeftHeroById === "function") {
+    showLeftHeroById(id);
+  } else if (typeof window !== "undefined" && typeof window.showLeftHeroById === "function") {
+    window.showLeftHeroById(id);
+  } else {
+    console.warn("showLeftHeroById is not defined");
+  }
+}
+
 
 export default getRightData;
