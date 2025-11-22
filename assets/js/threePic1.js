@@ -7,7 +7,7 @@ let loadThreePic1 = async () => {
     );
     let res = await data.json();
 
-    let result = res.threePic1
+    let result = res.threepic1
       .map((p) => {
         return `
         <div class="eachPic">
