@@ -1,0 +1,165 @@
+.slider2 {
+  width: 75%;
+  margin: 0 auto 64px;
+  height: 460px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative; /* anchor for absolute children */
+  
+}
+.swiper .swiper-wrapper{
+  height: 90%;
+}
+.up {
+  position: relative; /* optional, can be omitted */
+  margin-bottom: 4px;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.up .title{
+  font-size: 20px ;
+  font-weight: 700;
+}
+/* Grouped navigation container positioned above, right-aligned */
+.swiper-nav {
+  width: 90px;
+  height: 100%;
+  position: absolute;
+  top: 0;     
+  right: 0;      
+  display: flex;
+  gap: 6px;
+  z-index: 5;      
+}
+
+/* Circular navigation buttons (reset default absolute) */
+.swiper-button-next,
+.swiper-button-prev {
+  position: static;          
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50%;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border: none;
+}
+
+/* Hover effect */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #444;
+}
+
+/* Remove default Swiper arrow icons */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+/* Custom SVG arrows */
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff !important;
+}
+
+/* Slides */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.swiper-slide div.texts {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: left;
+  gap: 8px;
+}
+
+.swiper-slide .texts .paragraph {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(189, 189, 189);
+}
+
+.swiper-slide .texts .title {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.swiper-slide .texts .price {
+  font-size: 12px;
+  color: white;
+}
+
+
+.slider2  .buttons{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+}
+.slider2  .buttons .blueBtn{
+  width: 32px;
+  height: 18px;
+  font-size: 12px;
+  background-color: rgb(38, 187, 255) !important;
+  color: #000000;
+  border:none;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.slider2  .buttons>del{
+  color: gray;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+.slider2  .buttons>span{
+  font-size: 14px;
+}
+.slider2  .buttons .grayBtn{
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  line-height: 140%;
+  background-color: #ffffff26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  text-wrap: nowrap;
+}

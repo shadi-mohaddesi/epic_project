@@ -1,0 +1,94 @@
+.trending {
+  width: 100%;
+  height: 1004px;
+  padding: 0 16px;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+}
+.trending .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 5%;
+}
+.trending .title .viewMore {
+  padding: 7px 15px;
+  border: 1px solid hsla(0, 0%, 100%, 0.35);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: transparent;
+  color: white;
+}
+.trending .title h5 span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trending .items {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px;
+}
+.trending .items .eachItem {
+  height: auto;
+  width: 48%;
+  flex-grow: 1;
+  flex-basis: 200;
+}
+.trending .items .eachItem img {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+.trending .items .eachItem .text {
+  height: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.trending .items .eachItem .text .grayBtn {
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  line-height: 140%;
+  background-color: #ffffff26;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  width: 110px;
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+.trending .items .eachItem .text span {
+  font-size: 14px;
+}
+.trending .items .eachItem .text .blueBtn {
+  width: 32px;
+  height: 18px;
+  font-size: 12px;
+  background-color: rgb(38, 187, 255) !important;
+  color: #000000;
+  border: none;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trending .moreThanfour{
+    display: none !important;
+}

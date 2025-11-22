@@ -1,0 +1,63 @@
+.discover {
+  width: 75%;
+  margin: 0 auto 16px auto;
+  background-color: #101014;
+  padding: 24px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.discover .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.discover_menu {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.discover_menu li , .discover_menu li a {
+  color: rgb(199, 199, 199) !important;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 13px;
+  transition: color 0.3s;
+}
+
+.discover_menu li a:hover {
+  color: #cee4ee;
+}
+/* Search bar styling */
+.search_bar {
+  padding: 6px 12px;
+  border-radius:32px;
+  border: none;
+  background-color: #303034;
+  color: white;
+  font-size: 16px;
+  width: 200px;
+  outline: none;
+}
+
+.search_bar::placeholder {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+
+/* none */
+  .mobile_search,
+  .mobile_discover {
+    display: none;
+  }

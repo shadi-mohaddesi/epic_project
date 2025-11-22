@@ -1,0 +1,31 @@
+/* Mobile-only items */
+.mobile_search,
+.mobile_discover {
+  display: flex;
+  align-items: center;
+}
+
+.search_icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.discover_btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 16px;
+}
+/* none */
+.search_bar,
+.discover_menu {
+  display: none;
+}
+.dicover {
+  position: sticky;
+  z-index: 10000;
+}

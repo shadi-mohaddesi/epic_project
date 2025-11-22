@@ -1,0 +1,162 @@
+/* .lines{
+  display: none;
+} */
+
+.lines {
+  width: 95%;
+  height: 784px;
+  margin: 0 auto 64px;
+  overflow: hidden;
+}
+.lines > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+}
+.lines > ul > li {
+  flex: 1;
+  height: 100%;
+  padding: 0 16px;
+  text-decoration: none;
+  list-style: none;
+  /* border-radius: 8px; */
+  border-left: 0.35px solid rgba(211, 211, 211, 0.637);
+}
+.lines > ul > li .listContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.lines > ul > li .listContainer .title {
+  height: 8%;
+  width: 100%;
+  margin-bottom: 6px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.lines > ul > li .listContainer ul {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 6px;
+}
+.lines > ul > li .listContainer ul li {
+  width: 100%;
+  height: 152px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  /* padding: 10px; */
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  /* border: 1px solid gray; */
+  overflow: hidden;
+}
+.lines > ul > li .listContainer ul li:hover {
+  background-color: #3535355b;
+}
+.lines > ul > li .listContainer ul li > div {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+}
+.lines > ul > li .listContainer ul li > div a {
+  width: 100%;
+  height: 100%;
+  /* padding: 6px; */
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.lines > ul > li .listContainer ul li > div a img {
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.lines > ul > li .listContainer ul li > div a .text {
+  width: 80%;
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+  justify-content: center;
+}
+.lines > ul > li .listContainer ul li > div a .text h6 {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  /* margin-bottom: 10px; */
+  margin-top: 10px;
+  color: white;
+  flex: 1;
+}
+.lines > ul > li .listContainer ul li > div a .text .up {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 16px;
+  align-items: center;
+  /* padding-bottom: 4px; */
+  flex: 2;
+}
+
+.lines > ul > li .listContainer ul li > div a .text .down {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 4px;
+  gap: 16px;
+  align-items: center;
+  flex: 2;
+}
+
+.lines > ul > li .listContainer ul li > div a .text .up .grayBtn {
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 140%;
+  background-color: #ffffff26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  text-wrap: nowrap;
+  color: white;
+}
+.lines > ul > li .listContainer ul li > div a .text .up .soon {
+  font-size: 12px;
+  color: rgba(141, 139, 139, 0.904);
+}
+
+.lines > ul > li .listContainer ul li > div a .text .down .oldPrice {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+.lines > ul > li .listContainer ul li > div a .text .down .newPrice {
+  font-size: 14px;
+  color: white;
+}
+.lines > ul > li .listContainer ul li > div a .text .down .blueBtn {
+  width: 32px;
+  height: 18px;
+  font-size: 12px;
+  background-color: rgb(38, 187, 255) !important;
+  color: #000000;
+  border: none;
+  border-radius: 100px;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}

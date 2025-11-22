@@ -1,0 +1,1310 @@
+{
+  "navbar": [
+    {
+      "id": "storeLogo",
+      "url": "./assets/img/header/Logo Epic Games Store.svg",
+      "alt": "logo"
+    },
+    { "id": "menuLink", "title": "Support", "href": "#" },
+    {
+      "id": "dropDownLink",
+      "title": "Distribute",
+      "href": "#",
+      "dropdownMenu": [
+        { "id": 1, "title": "Distributeon Epic Game Store", "href": "#" },
+        { "id": 2, "title": "Developer Forums", "href": "#" },
+        { "id": 3, "title": "Documentation", "href": "#" },
+        { "id": 4, "title": "Learning", "href": "#" }
+      ]
+    }
+  ],
+
+  "discoverMenu": [
+    { "id": 1, "title": "Discover", "href": "#" },
+    { "id": 2, "title": "Browse", "href": "#" },
+    { "id": 3, "title": "News", "href": "#" }
+  ],
+
+  "leftHero": [
+    {
+      "id": 1,
+      "image": "https://cdn2.unrealengine.com/egs-fortnite-sidekicks-carousel-desktop-1920x1080-ab679c4d991d.jpg?resize=1&w=1280&h=720&quality=medium",
+      "title": "fortnite SIDEKICKS",
+      "prepare": "Available Now",
+      "caption": "The squad just got fluffier. Fortnite Sidekicks are here!",
+      "price": "",
+      "playBtn": {
+        "text": "Learn More",
+        "borderRadius": "6px"
+      },
+      "wishListBtn": {
+        "text": "",
+        "color": "",
+        "borderRadius": ""
+      }
+    },
+    {
+      "id": 2,
+      "image": "https://cdn2.unrealengine.com/egs-honkai-star-rail-3-7-carousel-desktop-1920x1080-f0519e04a0b5.jpg?resize=1&w=1280&h=720&quality=medium",
+      "title": "Honkai: Star Rail",
+      "prepare": "New Cyrene Is Here!",
+      "caption": "Cyrene (Remembrance: Ice) is on rate-up!",
+      "price": "Free",
+      "playBtn": {
+        "text": "Play For Free",
+        "borderRadius": "6px"
+      },
+      "wishListBtn": {
+        "text": "Add to Wishlist",
+        "color": "#eeeeee",
+        "borderRadius": "6px"
+      }
+    },
+    {
+      "id": 3,
+      "image": "https://cdn2.unrealengine.com/egs-resident-evil-requiem-carousel-desktop-1920x1080-92a46db2299b.jpg?resize=1&w=1280&h=720&quality=medium",
+      "title": "Resident Evil Requiem",
+      "prepare": "The 9th title in the mainline series!",
+      "caption": "Requiem for the dead. Nightmare for the living. Prepare to escape death in a heart-stopping experience that will chill you to your core.",
+      "price": "52.49$",
+      "playBtn": {
+        "text": "Pre-Purchase Now",
+        "borderRadius": "6px"
+      },
+      "wishListBtn": {
+        "text": "Add to Wishlist",
+        "color": "#eeeeee",
+        "borderRadius": "6px"
+      }
+    },
+    {
+      "id": 4,
+      "image": "https://cdn2.unrealengine.com/egs-raven2-carousel-desktop-1920x1080-e8544ecf06ab.jpg?resize=1&w=1280&h=720&quality=medium",
+      "title": "RAVEN",
+      "prepare": "Forge Your Own Epic Tale",
+      "caption": "Born in Blood. Built for War. Enter RAVEN2, the brutal dark fantasy MMORPG.",
+      "price": "Free",
+      "playBtn": {
+        "text": "Play Now",
+        "borderRadius": "6px"
+      },
+      "wishListBtn": {
+        "text": "Add to Wishlist",
+        "color": "#eeeeee",
+        "borderRadius": "6px"
+      }
+    }
+  ],
+
+  "rightHero": [
+    {
+      "id": 1,
+      "url": "https://cdn2.unrealengine.com/en-egs-fortnite-sidekicks-carousel-thumb-1200x1600-6135cc294bd5.jpg?resize=1&w=96&h=128&quality=medium",
+      "alt": "fortnite",
+      "title": "fortnite"
+    },
+    {
+      "id": 2,
+      "url": "https://cdn2.unrealengine.com/en-egs-honkai-star-rail-3-7-carousel-thumb-1200x1600-32d8a735e9ec.jpg?resize=1&w=96&h=128&quality=medium",
+      "alt": "honkai",
+      "title": "Honkai: Star Rail"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn2.unrealengine.com/re-egs-resident-evil-requiem-carousel-thumb-1200x1600-27a16acb6b8b.jpg?resize=1&w=96&h=128&quality=medium",
+      "alt": "resident",
+      "title": "Resident Evil Requiem"
+    },
+    {
+      "id": 4,
+      "url": "https://cdn2.unrealengine.com/egs-raven2-carousel-thumb-1200x1600-c29f78b299b9.jpg?resize=1&w=96&h=128&quality=medium",
+      "alt": "raven-2",
+      "title": "RAVEN2"
+    }
+  ],
+
+  "slider": [
+    {
+      "id": 1,
+      "url": "https://cdn1.epicgames.com/spt-assets/b48333b95b8744949229259f9f4917ea/escape-from-duckov-q4c9m.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "duckov",
+      "littleTXT": "Base Game",
+      "title": "Escape from Duckov",
+      "price": "$12.99"
+    },
+    {
+      "id": 2,
+      "url": "https://cdn1.epicgames.com/spt-assets/49d070acfaae4ac192ece9ca9bf30755/super-fantasy-kingdom-uqvh0.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "super-fantasy-kingdom",
+      "littleTXT": "Base Game",
+      "title": "Super Fantasy Kingdom",
+      "price": "$7.99"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn1.epicgames.com/spt-assets/4fb7b98a0a004fd3870acdb32ae0ad4c/powerwash-simulator-2-18mse.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "powerwash-simulator",
+      "littleTXT": "Base Game",
+      "title": "PowerWash Simulator 2",
+      "price": "$11.59"
+    },
+    {
+      "id": 4,
+      "url": "https://cdn1.epicgames.com/spt-assets/da68e002ba5e4b119011a43c79edbf3c/indigo-1xwok.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "indigo",
+      "littleTXT": "Base Game",
+      "title": "GODBREAKERS",
+      "price": "$9.99"
+    },
+    {
+      "id": 5,
+      "url": "https://cdn1.epicgames.com/spt-assets/46fa0e1a8f734f27bf947f304224d1fd/blue-protocol-star-resonance-1vs5w.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "blue-protocol-star-resonance",
+      "littleTXT": "Base Game",
+      "title": "Blue Protocol: Star Resonance",
+      "price": "Free"
+    },
+    {
+      "id": 6,
+      "url": "https://cdn1.epicgames.com/spt-assets/3ee3dfff2735421a88b4e2062d6784cf/duet-night-abyss-1y8jg.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "duet-night-abyss",
+      "littleTXT": "Base Game",
+      "title": "Duet Night Abyss",
+      "price": "Free"
+    },
+    {
+      "id": 1,
+      "url": "https://cdn1.epicgames.com/spt-assets/b48333b95b8744949229259f9f4917ea/escape-from-duckov-q4c9m.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "duckov",
+      "littleTXT": "Base Game",
+      "title": "Escape from Duckov",
+      "price": "$12.99"
+    },
+    {
+      "id": 2,
+      "url": "https://cdn1.epicgames.com/spt-assets/49d070acfaae4ac192ece9ca9bf30755/super-fantasy-kingdom-uqvh0.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "super-fantasy-kingdom",
+      "littleTXT": "Base Game",
+      "title": "Super Fantasy Kingdom",
+      "price": "$7.99"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn1.epicgames.com/spt-assets/4fb7b98a0a004fd3870acdb32ae0ad4c/powerwash-simulator-2-18mse.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "powerwash-simulator",
+      "littleTXT": "Base Game",
+      "title": "PowerWash Simulator 2",
+      "price": "$11.59"
+    },
+    {
+      "id": 4,
+      "url": "https://cdn1.epicgames.com/spt-assets/da68e002ba5e4b119011a43c79edbf3c/indigo-1xwok.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "indigo",
+      "littleTXT": "Base Game",
+      "title": "GODBREAKERS",
+      "price": "$9.99"
+    },
+    {
+      "id": 5,
+      "url": "https://cdn1.epicgames.com/spt-assets/46fa0e1a8f734f27bf947f304224d1fd/blue-protocol-star-resonance-1vs5w.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "blue-protocol-star-resonance",
+      "littleTXT": "Base Game",
+      "title": "Blue Protocol: Star Resonance",
+      "price": "Free"
+    },
+    {
+      "id": 6,
+      "url": "https://cdn1.epicgames.com/spt-assets/3ee3dfff2735421a88b4e2062d6784cf/duet-night-abyss-1y8jg.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "duet-night-abyss",
+      "littleTXT": "Base Game",
+      "title": "Duet Night Abyss",
+      "price": "Free"
+    }
+  ],
+
+  "threepic": [
+    {
+      "id": 1,
+      "url": "https://cdn2.unrealengine.com/fneco-keyart-25-egs-launcher-keyart-breaker-1920x1080-1920x1080-0b655fc3a84f.jpg?resize=1&w=854&h=480&quality=medium",
+      "alt": "egs-launcher",
+      "title": "This Week in Fortnite",
+      "paragraph": "Check out the latest updates in Fortnite, from classic Battle Royale to Blitz and Delulu. There's always something new in Fortnite!",
+      "blueBtn": "",
+      "grayBtn": "Discover Now",
+      "oldPrice": "",
+      "newPrice": ""
+    },
+    {
+      "id": 2,
+      "url": "https://cdn2.unrealengine.com/en-20br-spider-man-zerowar-social-social-1920x1080-b92f1034f713.jpg?resize=1&w=854&h=480&quality=medium",
+      "alt": "spider-man-zerowar-social",
+      "title": "Fortnite",
+      "paragraph": "Armored up and ready to swing into battle. Get the Spider-Man Zero outfit in the Shop now!",
+      "blueBtn": "",
+      "grayBtn": "See In Shop",
+      "oldPrice": "",
+      "newPrice": ""
+    },
+    {
+      "id": 3,
+      "url": "https://cdn2.unrealengine.com/fneco-34-20-anemone-social-3up-inlinesupportingimages-1920x1080-1920x1080-c00a39c3159d.jpg?resize=1&w=854&h=480&quality=medium",
+      "alt": "anemone",
+      "title": "Fortnite",
+      "paragraph": "Take your revenge as Scorpion, unleash chaos as the God of Thunder, Raiden, and protect as the warrior princess Kitana.",
+      "blueBtn": "",
+      "grayBtn": "See In Shop",
+      "oldPrice": "",
+      "newPrice": ""
+    }
+  ],
+
+  "threepic1": [
+    {
+      "id": 1,
+      "url": "https://cdn2.unrealengine.com/en-egs-deals-of-the-week-breaker-1920x1080-1daad41ab8fd.jpg?resize=1&w=854&h=480&quality=medium",
+      "alt": "en-egs-deals-of-the-week-breaker",
+      "title": "Rayman Legends",
+      "paragraph": "",
+      "blueBtn": "-80%",
+      "grayBtn": "",
+      "oldPrice": "13.99$",
+      "newPrice": "2.79$"
+    },
+    {
+      "id": 2,
+      "url": "https://cdn2.unrealengine.com/en-egs-deals-of-the-week-breaker-1920x1080-1ee5c49c02e9.jpg?resize=1&w=854&h=480&quality=medium",
+      "alt": "spider-man-zerowar-social",
+      "title": "Crysis 3 Remastered",
+      "paragraph": "",
+      "blueBtn": "-55%",
+      "grayBtn": "",
+      "oldPrice": "13.99$",
+      "newPrice": "6.29$"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn2.unrealengine.com/en-sales-specials-dotw-breaker-asset-1920x1080-1313ee288796.jpg?resize=1&w=854&h=480&quality=medium",
+      "alt": "specials",
+      "title": "Check out all the deals for this week.",
+      "paragraph": "",
+      "blueBtn": "",
+      "grayBtn": "Browse",
+      "oldPrice": "",
+      "newPrice": ""
+    }
+  ],
+  "slider1": [
+    {
+      "id": 1,
+      "url": "https://cdn1.epicgames.com/ba8062bdcc1342c0b78743e3c6242575/offer/JC4-Reloaded-860x1148-860x1148-145b58e1d3d597871b8585f824540c57-860x1148-145b58e1d3d597871b8585f824540c57.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "just cause4 reloaded",
+      "paragraph": "Base Game",
+      "title": "Just Cause 4 Reloaded",
+      "blueBtn": "-85%",
+      "grayBtn": "",
+      "oldPrice": "18.99$",
+      "newPrice": "2.84$"
+    },
+    {
+      "id": 2,
+      "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Crysis3Remastered_Crytek_S2_1200x1600-a98a0e5a8215ee2f2b768ec2140f5fd4?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_Crysis3Remastered_Crytek_S2_1200x1600",
+      "paragraph": "Base Game",
+      "title": "Crysis 3 Remastered",
+      "blueBtn": "-55%",
+      "grayBtn": "",
+      "oldPrice": "13.99$",
+      "newPrice": "6.29$"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn1.epicgames.com/offer/fc8d1547232045f6a23257cfd04ef3e8/RAYL_StorePortrait_1200x1600_1200x1600-fb12d95d31bf845aa33409748940b904?resize=1&w=360&h=480&quality=medium",
+      "alt": "RAYL_StorePortrait_1200x1600_1200x1600",
+      "paragraph": "Base Game",
+      "title": "RAYMAN® LEGENDS",
+      "blueBtn": "-80%",
+      "grayBtn": "",
+      "oldPrice": "13.99$",
+      "newPrice": "2.79$"
+    },
+    {
+      "id": 4,
+      "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_JustDieAlready_DoubleMoose_S6_1200x1600-577891f9b98a2f9fb55adcaae4ed5ebe?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_JustDieAlready_DoubleMoose_S6_1200x1600",
+      "paragraph": "Base Game",
+      "title": "Just Die Already",
+      "blueBtn": "-80%",
+      "grayBtn": "",
+      "oldPrice": "6.99$",
+      "newPrice": "1.39$"
+    },
+    {
+      "id": 5,
+      "url": "https://cdn1.epicgames.com/spt-assets/48e3b70dc9274640a936aac55ffb1568/worker-simulator-6o5v5.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "worker-simulator",
+      "paragraph": "Base Game",
+      "title": "Worker Simulator",
+      "blueBtn": "-95%",
+      "grayBtn": "",
+      "oldPrice": "6.99$",
+      "newPrice": "0.34$"
+    },
+    {
+      "id": 6,
+      "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_SherlockHolmesChapterOne_Frogwares_S2_1200x1600-668b5a592813212fab58b44cbd113733?resize=1&w=360&h=480&quality=medium",
+      "alt": "GS_SherlockHolmesChapterOne_Frogwares",
+      "paragraph": "Base Game",
+      "title": "Sherlock Holmes Chapter One",
+      "blueBtn": "-90%",
+      "grayBtn": "",
+      "oldPrice": "35.99$",
+      "newPrice": "3.59$"
+    },
+    {
+      "id": 1,
+      "url": "https://cdn1.epicgames.com/ba8062bdcc1342c0b78743e3c6242575/offer/JC4-Reloaded-860x1148-860x1148-145b58e1d3d597871b8585f824540c57-860x1148-145b58e1d3d597871b8585f824540c57.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "just cause4 reloaded",
+      "paragraph": "Base Game",
+      "title": "Just Cause 4 Reloaded",
+      "blueBtn": "-85%",
+      "grayBtn": "",
+      "oldPrice": "18.99$",
+      "newPrice": "2.84$"
+    },
+    {
+      "id": 2,
+      "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Crysis3Remastered_Crytek_S2_1200x1600-a98a0e5a8215ee2f2b768ec2140f5fd4?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_Crysis3Remastered_Crytek_S2_1200x1600",
+      "paragraph": "Base Game",
+      "title": "Crysis 3 Remastered",
+      "blueBtn": "-55%",
+      "grayBtn": "",
+      "oldPrice": "13.99$",
+      "newPrice": "6.29$"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn1.epicgames.com/offer/fc8d1547232045f6a23257cfd04ef3e8/RAYL_StorePortrait_1200x1600_1200x1600-fb12d95d31bf845aa33409748940b904?resize=1&w=360&h=480&quality=medium",
+      "alt": "RAYL_StorePortrait_1200x1600_1200x1600",
+      "paragraph": "Base Game",
+      "title": "RAYMAN® LEGENDS",
+      "blueBtn": "-80%",
+      "grayBtn": "",
+      "oldPrice": "13.99$",
+      "newPrice": "2.79$"
+    },
+    {
+      "id": 4,
+      "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_JustDieAlready_DoubleMoose_S6_1200x1600-577891f9b98a2f9fb55adcaae4ed5ebe?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_JustDieAlready_DoubleMoose_S6_1200x1600",
+      "paragraph": "Base Game",
+      "title": "Just Die Already",
+      "blueBtn": "-80%",
+      "grayBtn": "",
+      "oldPrice": "6.99$",
+      "newPrice": "1.39$"
+    },
+    {
+      "id": 5,
+      "url": "https://cdn1.epicgames.com/spt-assets/48e3b70dc9274640a936aac55ffb1568/worker-simulator-6o5v5.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "worker-simulator",
+      "paragraph": "Base Game",
+      "title": "Worker Simulator",
+      "blueBtn": "-95%",
+      "grayBtn": "",
+      "oldPrice": "6.99$",
+      "newPrice": "0.34$"
+    },
+    {
+      "id": 6,
+      "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_SherlockHolmesChapterOne_Frogwares_S2_1200x1600-668b5a592813212fab58b44cbd113733?resize=1&w=360&h=480&quality=medium",
+      "alt": "GS_SherlockHolmesChapterOne_Frogwares",
+      "paragraph": "Base Game",
+      "title": "Sherlock Holmes Chapter One",
+      "blueBtn": "-90%",
+      "grayBtn": "",
+      "oldPrice": "35.99$",
+      "newPrice": "3.59$"
+    }
+  ],
+  "listTitle": [
+    { "id": 1, "title": "Top Sellers" },
+    { "id": 2, "title": "Most Played" },
+    { "id": 3, "title": "Top Upcoming Wishlisted" }
+  ],
+  "topSellers": [
+    {
+      "id": 1,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/offer/525cf92ef772437e98805aeb6e234b2a/EGST_StorePortrait_1200x1600_1200x1600-6eaef08ab42924ccb270ea329f122ca7?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGST_StorePortrait_1200x1600_1200x1600",
+      "title": "Anno 117: Pax Romana",
+      "grayBtn": "",
+      "soon": "",
+      "oldPrice": "",
+      "newPrice": "59.99$",
+      "blueBtn": ""
+    },
+    {
+      "id": 2,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/spt-assets/eea910a7cb414468a2b6eef5a33d0b71/tanglefoot-134vj.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "tanglefoot",
+      "title": "Football Manager 26",
+      "grayBtn": "",
+      "soon": "",
+      "oldPrice": "",
+      "newPrice": "39.99$",
+      "blueBtn": ""
+    },
+    {
+      "id": 3,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/spt-assets/2b2299be8ae84d679d4dc57c55af1510/dead-by-daylight-1qxef.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "daylight",
+      "title": "Dead by Daylight",
+      "grayBtn": "",
+      "soon": "",
+      "oldPrice": "",
+      "newPrice": "14.99$",
+      "blueBtn": ""
+    },
+    {
+      "id": 4,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/offer/c8738a4d1ead40368eab9688b3c7d737/EGS_SkyrimSpecialEdition_BethesdaGameStudios_S2_1200x1600-ae5d13f6510e81460fe80aa1ca19cf4c?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_SkyrimSpecialEdition_BethesdaGameStudios_S2_1200x1600",
+      "title": "The Elder Scrolls V: Skyrim Special Edition",
+      "grayBtn": "",
+      "soon": "",
+      "oldPrice": "24.99$",
+      "newPrice": "6.24$",
+      "blueBtn": "-75%"
+    },
+    {
+      "id": 5,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_theHunterCalloftheWild_ExpansiveWorlds_S2_1200x1600-1e9b46aaabc33fe0a08cf5b418e76ba2?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_theHunterCalloftheWild_ExpansiveWorlds_S2_1200x1600",
+      "title": "theHunter: Call of the Wild™",
+      "grayBtn": "",
+      "soon": "",
+      "oldPrice": "",
+      "newPrice": "8.99$",
+      "blueBtn": ""
+    }
+  ],
+  "MostPlayed": [
+    {
+      "id": 1,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/offer/fn/FNBR_38-00_C6MS2_EGS_Launcher_FN_KeyArt_Blade_1200x1600_1200x1600-6aea04d4241e11f924c91cbe18c42203?resize=1&w=360&h=480&quality=medium",
+      "alt": "00_C6MS2_EGS_Launcher_FN_KeyArt_Blade_1200x1600_1200x1600",
+      "title": "Fortnite",
+      "grayBtn": "",
+      "soon": "",
+      "oldPrice": "",
+      "newPrice": "Free",
+      "blueBtn": ""
+    },
+    {
+      "id": 2,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/EGS_RocketLeague_PsyonixLLC_S2_1200x1600-90239520d8dce4a685c3f642ff9645a1?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_RocketLeague_PsyonixLLC_S2_1200x1600",
+      "title": "Rocket League®",
+      "grayBtn": "",
+      "soon": "",
+      "oldPrice": "",
+      "newPrice": "Free",
+      "blueBtn": ""
+    },
+    {
+      "id": 3,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc?resize=1&w=360&h=480&quality=medium",
+      "alt": "genshintall_1200x1600",
+      "title": "Genshin Impact",
+      "grayBtn": "",
+      "soon": "",
+      "oldPrice": "",
+      "newPrice": "Free",
+      "blueBtn": ""
+    },
+    {
+      "id": 4,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/EGS_VALORANT_RiotGames_S2_1200x1600-4c5338a8b14b8da8d45bd57298128673?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_VALORANT_RiotGames_S2_1200x1600",
+      "title": "VALORANT",
+      "grayBtn": "",
+      "soon": "",
+      "oldPrice": "",
+      "newPrice": "Free",
+      "blueBtn": ""
+    },
+    {
+      "id": 5,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/spt-assets/bd49b69c7a9e410b83b7c553c837a00a/crosshair-x-gr1xw.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "Crosshair X",
+      "title": "Crosshair X",
+      "grayBtn": "",
+      "soon": "",
+      "oldPrice": "",
+      "newPrice": "4.69$",
+      "blueBtn": ""
+    }
+  ],
+  "TopUpcomingWishlisted": [
+    {
+      "id": 1,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/spt-assets/ba63e2527a8c4b768845919c0d6c788e/mongil-star-dive-1je4v.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "mongil",
+      "title": "MONGIL: STAR DIVE",
+      "grayBtn": "👑First Run",
+      "soon": "Coming Soon",
+      "oldPrice": "",
+      "newPrice": "",
+      "blueBtn": ""
+    },
+    {
+      "id": 2,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/spt-assets/2f8a03caff764b6ba175c9ee1784d99b/tides-of-annihilation-2h07l.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "annihilation",
+      "title": "Tides of Annihilation",
+      "grayBtn": "",
+      "soon": "Coming Soon",
+      "oldPrice": "",
+      "newPrice": "",
+      "blueBtn": ""
+    },
+    {
+      "id": 3,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/spt-assets/011270e3237f4bf69a3459942f005393/subnautica-2-gpqlh.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "Subnautica 2",
+      "title": "Subnautica 2",
+      "grayBtn": "",
+      "soon": "Coming Soon",
+      "oldPrice": "",
+      "newPrice": "",
+      "blueBtn": ""
+    },
+    {
+      "id": 4,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/spt-assets/950c689c72814c19b60b6976a025e3ce/xociety-s19l3.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "XOCIETY",
+      "title": "XOCIETY",
+      "grayBtn": "",
+      "soon": "Coming Soon",
+      "oldPrice": "",
+      "newPrice": "",
+      "blueBtn": ""
+    },
+    {
+      "id": 5,
+      "href": "#",
+      "url": "https://cdn1.epicgames.com/spt-assets/7e9368ac3f2a47b1950c0f9363cf395e/lowlife-forms-qo62f.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "Lowlife Forms",
+      "title": "Lowlife Forms",
+      "grayBtn": "",
+      "soon": "Coming Soon",
+      "oldPrice": "",
+      "newPrice": "",
+      "blueBtn": ""
+    }
+  ], 
+  "freeGames": [
+    {
+      "id": 1,
+      "url": "https://cdn1.epicgames.com/offer/c03a3687567a4cf3910ea5ec7279664e/b3b676d2-3004-47db-b004-b0886cbefc16-1200x1600-ae53ef4bf4c28af8c253c043c35c78d1_1200x1600-ae53ef4bf4c28af8c253c043c35c78d1?resize=1&w=360&h=480&quality=medium",
+      "alt": "Scourgebringer cover",
+      "underImg": "FREE NOW",
+      "underImgBlack": "",
+      "title": "Scourgebringer",
+      "availability": {
+        "status": "Free Now",
+        "date": "2025-11-20",
+        "time": "19:30:00"
+      }
+    },
+    {
+      "id": 2,
+      "url": "https://cdn1.epicgames.com/spt-assets/717e784a701e49bba02e27f7774e966a/songs-of-silence-ocrx5.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "songs-of-silence",
+      "underImg": "FREE NOW",
+      "underImgBlack": "",
+      "title": "Songs of Silence",
+      "availability": {
+        "status": "Free Now",
+        "date": "2025-11-20",
+        "time": "19:30:00"
+      }
+    },
+    {
+      "id": 3,
+      "url": "https://cdn1.epicgames.com/spt-assets/24397552e51f404d8f89e93ed383d35a/zero-hour-17o7j.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "zero Hour",
+      "underImg": "FREE NOW",
+      "underImgBlack": "",
+      "title": "zero Hour",
+      "availability": {
+        "status": "Free Now",
+        "date": "Nov 20 at",
+        "time": "7:30 pm"
+      }
+    },
+    {
+      "id": 4,
+      "url": "https://cdn1.epicgames.com/spt-assets/78af28ae56cb41e69cbca318bbc180e3/download-zoeti-offer-1potl.png?resize=1&w=360&h=480&quality=medium",
+      "alt": " zoeti",
+      "underImg": "",
+      "underImgBlack": "coming soon",
+      "title": "Zoeti",
+      "availability": {
+        "status": "Free ",
+        "date": "nov 20",
+        "time": "nov 27"
+      }
+    }
+  ],
+  "banner": [
+    {
+      "id": 1,
+      "url": "https://cdn2.unrealengine.com/egs-ambrosia-sky-breaker-1920x1080-74b63e51ba5f.jpg?resize=1&w=1280&h=720&quality=medium",
+      "alt": "egs-ambrosia-sky-breaker",
+      "title": "Ambrosia Sky: Act One",
+      "paragraph": "Ambrosia Sky: Act One is an immersive sim about exploring an asteroid colony devastated by a fungal contamination.",
+      "price": "6.99$",
+      "blueBtn": "Buy Now",
+      "grayBtn": "Add To Wishlist"
+    }
+  ],
+  "trending": [
+    {
+      "id": 1,
+      "url": "https://cdn1.epicgames.com/spt-assets/8b215f56ee4c49b68a68f1c6662b3700/pmr-project-motor-racing-194l2.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "project-motor-racing",
+      "littleTXT": "Base Game",
+      "title": "Project Motor Racing",
+      "availability": "Available 11/25/25",
+      "grayBtn": "",
+      "blueBtn": "",
+      "price": "39.99$"
+    },
+    {
+      "id": 2,
+      "url": "https://cdn1.epicgames.com/spt-assets/7044c52c68ea48519b725989afad3093/ride-6-zesaz.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "ride-6-zesaz",
+      "littleTXT": "Base Game",
+      "title": "RIDE 6",
+      "availability": "Available 02/12/26",
+      "grayBtn": "",
+      "blueBtn": "",
+      "price": "59.99$"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn1.epicgames.com/spt-assets/ba63e2527a8c4b768845919c0d6c788e/mongil-star-dive-1je4v.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "mongil-star-dive",
+      "littleTXT": "Base Game",
+      "title": "MONGIL: STAR DIVE",
+      "availability": "Coming Soon",
+      "grayBtn": "👑 First Run",
+      "blueBtn": "",
+      "price": ""
+    },
+    {
+      "id": 4,
+      "url": "https://cdn1.epicgames.com/spt-assets/691bdcb1ffe944b980ec571558933baa/wilder-world-vhmkw.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "wilder-world",
+      "littleTXT": "Base Game",
+      "title": "Wilder World",
+      "availability": "Coming Soon",
+      "grayBtn": "",
+      "blueBtn": "",
+      "price": ""
+    },
+    {
+      "id": 5,
+      "url": "https://cdn1.epicgames.com/spt-assets/a55e4c8b015d445195aab2f028deace6/where-winds-meet-gd7a4.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "where-winds-meet",
+      "littleTXT": "Base Game",
+      "title": "Where Winds Meet",
+      "availability": "",
+      "grayBtn": "",
+      "blueBtn": "",
+      "price": "Free"
+    }
+  ],
+  "lines1": [
+    {
+      "id": 1,
+      "title": "Top Sellers",
+      "product": [
+        {
+          "id": 1,
+          "titlelit": "Available 11/04/25",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/spt-assets/9e8b37541e614575b4de303d2c2e44cf/arc-raiders-hrxqv.jpg?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "$49.44",
+          "val": "",
+          "button": ""
+        },
+        {
+          "id": 2,
+          "titlelit": "Available 11/04/25",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/offer/a14a02aa3c8143729605eaf7c93d7501/EGS_Battlefield6_BattlefieldStudios_S2_1200x1600-a88625a836120c55650c83d17a010c25?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "$49.44",
+          "val": "",
+          "button": ""
+        },
+        {
+          "id": 3,
+          "titlelit": "Available 11/04/25",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/offer/b0cd075465c44f87be3b505ac04a2e46/GTAV_CHARM_Epic_FirstParty_PortraitFOB_1200x1600_R02_1200x1600-a5528b33df876e64f5dee728830c80a3?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "$44.99",
+          "val": "",
+          "button": ""
+        },
+        {
+          "id": 4,
+          "titlelit": "Available 11/04/25",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic%20Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "$44.99",
+          "val": "",
+          "button": ""
+        },
+        {
+          "id": 5,
+          "titlelit": "Available 11/04/25",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/offer/77f2b98e2cef40c8a7437518bf420e47/EGS_Cyberpunk2077_CDPROJEKTRED_S2_03_1200x1600-b1847981214ac013383111fc457eb9c5?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "$44.99",
+          "val": "",
+          "button": ""
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Most Played",
+      "product": [
+        {
+          "id": 1,
+          "titlelit": "Available 11/04/25",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/offer/fn/FNBR_38-00_C6MS2_EGS_Launcher_FN_KeyArt_Blade_1200x1600_1200x1600-6aea04d4241e11f924c91cbe18c42203?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "Free",
+          "val": "",
+          "button": ""
+        },
+        {
+          "id": 2,
+          "titlelit": "Available 11/04/25",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/EGS_RocketLeague_PsyonixLLC_S2_1200x1600-90239520d8dce4a685c3f642ff9645a1?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "Free",
+          "val": "",
+          "button": ""
+        },
+        {
+          "id": 3,
+          "titlelit": "Available 11/04/25",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "Free",
+          "val": "",
+          "button": ""
+        },
+        {
+          "id": 4,
+          "titlelit": "Available 11/04/25",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/EGS_VALORANT_RiotGames_S2_1200x1600-4c5338a8b14b8da8d45bd57298128673?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "Free",
+          "val": "",
+          "button": ""
+        },
+        {
+          "id": 5,
+          "titlelit": "Available 11/04/25",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/offer/b0cd075465c44f87be3b505ac04a2e46/GTAV_CHARM_Epic_FirstParty_PortraitFOB_1200x1600_R02_1200x1600-a5528b33df876e64f5dee728830c80a3?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "$44.99",
+          "val": "",
+          "button": ""
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Top Upcoming Wishlisted",
+      "product": [
+        {
+          "id": 1,
+          "titlelit": "",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/spt-assets/ba63e2527a8c4b768845919c0d6c788e/mongil-star-dive-1je4v.jpg?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "",
+          "val": "Coming Soon",
+          "button": ""
+        },
+        {
+          "id": 2,
+          "titlelit": "",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/spt-assets/2f8a03caff764b6ba175c9ee1784d99b/tides-of-annihilation-2h07l.png?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "",
+          "val": "Coming Soon",
+          "button": ""
+        },
+        {
+          "id": 3,
+          "titlelit": "",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/spt-assets/011270e3237f4bf69a3459942f005393/subnautica-2-gpqlh.png?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "",
+          "val": "Coming Soon",
+          "button": ""
+        },
+        {
+          "id": 4,
+          "titlelit": "",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/spt-assets/950c689c72814c19b60b6976a025e3ce/xociety-s19l3.png?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "",
+          "val": "Coming Soon",
+          "button": ""
+        },
+        {
+          "id": 5,
+          "titlelit": "",
+          "titlebig": "Rocket League",
+          "imgsrc": "https://cdn1.epicgames.com/spt-assets/7e9368ac3f2a47b1950c0f9363cf395e/lowlife-forms-qo62f.png?resize=1&w=360&h=480&quality=medium",
+          "alt": "This Week in Fortnite",
+          "href": "#",
+          "off": "",
+          "before": "",
+          "after": "",
+          "val": "Coming Soon",
+          "button": ""
+        }
+      ]
+    }
+  ],
+  "footerAcTitles": [
+    {
+      "id": "Games",
+      "name": "Games",
+      "links": [
+        { "id": 1, "url": "#", "title": "Fortnite" },
+        { "id": 2, "url": "#", "title": "Fall Guys" },
+        { "id": 3, "url": "#", "title": "Rocket League" },
+        { "id": 4, "url": "#", "title": "Unreal Tournament" },
+        { "id": 5, "url": "#", "title": "Shadow Complex" },
+        { "id": 6, "url": "#", "title": "Robo Recall" }
+      ]
+    },
+    {
+      "id": "Marketplaces",
+      "name": "Marketplaces",
+      "links": [
+        { "id": 1, "url": "#", "title": "Epic GamesStore" },
+        { "id": 2, "url": "#", "title": "Fab" },
+        { "id": 3, "url": "#", "title": "Sketchfab" },
+        { "id": 4, "url": "#", "title": "ArtStation" },
+        { "id": 5, "url": "#", "title": "Store Refund Policy" },
+        { "id": 6, "url": "#", "title": "Store EULA" }
+      ]
+    },
+    {
+      "id": "Tools",
+      "name": "Tools",
+      "links": [
+        { "id": 1, "url": "#", "title": "UNreal Engine" },
+        { "id": 2, "url": "#", "title": "UEFN" },
+        { "id": 3, "url": "#", "title": "MetaHuman" },
+        { "id": 4, "url": "#", "title": "Twinmotion" },
+        { "id": 5, "url": "#", "title": "Megascans" },
+        { "id": 6, "url": "#", "title": "Reality Scan" },
+        { "id": 7, "url": "#", "title": "RAD Game Tools" }
+      ]
+    },
+    {
+      "id": "Online Services",
+      "name": "Online Services",
+      "links": [
+        { "id": 1, "url": "#", "title": "Epic Online Services" },
+        { "id": 2, "url": "#", "title": "Kids Web Services" },
+        { "id": 3, "url": "#", "title": "Services Agreement" },
+        { "id": 4, "url": "#", "title": "Acceptasble Use Policy" },
+        { "id": 5, "url": "#", "title": "Trust Statement" },
+        { "id": 6, "url": "#", "title": "Subprocessor List" }
+      ]
+    },
+    {
+      "id": "Company",
+      "name": "Company",
+      "links": [
+        { "id": 1, "url": "#", "title": "About" },
+        { "id": 2, "url": "#", "title": "Newsroom" },
+        { "id": 3, "url": "#", "title": "Careers" },
+        { "id": 4, "url": "#", "title": "Students " },
+        { "id": 5, "url": "#", "title": "UX research " }
+      ]
+    },
+    {
+      "id": "Resources",
+      "name": "Resources",
+      "links": [
+        { "id": 1, "url": "#", "title": "Dev Community" },
+        { "id": 2, "url": "#", "title": "MegaGrants" },
+        { "id": 3, "url": "#", "title": "Support-A-creator" },
+        { "id": 4, "url": "#", "title": "Creator Agreement " },
+        { "id": 5, "url": "#", "title": "Distribute on Epic Games" },
+        { "id": 6, "url": "#", "title": "UNreal Engine Branding Guidliness" },
+        { "id": 7, "url": "#", "title": "Fan Art Policy" },
+        { "id": 8, "url": "#", "title": "Community Rules" },
+        { "id": 9, "url": "#", "title": "EU Digital Services Act Inquiries" },
+        { "id": 10, "url": "#", "title": "Epic Pro Support" }
+      ]
+    }
+  ],
+  "slider2": [
+    {
+      "id": 1,
+      "url": "https://cdn1.epicgames.com/spt-assets/9e8b37541e614575b4de303d2c2e44cf/arc-raiders-hrxqv.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "just cause4 reloaded",
+      "paragraph": "Base Game",
+      "title": "ARC Raiders",
+      "blueBtn": "",
+      "grayBtn": "",
+      "oldPrice": "",
+      "newPrice": "39.99$$"
+    },
+    {
+      "id": 2,
+      "url": "https://cdn1.epicgames.com/offer/a14a02aa3c8143729605eaf7c93d7501/EGS_Battlefield6_BattlefieldStudios_S2_1200x1600-a88625a836120c55650c83d17a010c25?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_Crysis3Remastered_Crytek_S2_1200x1600",
+      "paragraph": "Base Game",
+      "title": "FULL METAL SCHOOLGIRL",
+      "blueBtn": "-55%",
+      "grayBtn": "Trial Available",
+      "oldPrice": "",
+      "newPrice": "69.99$"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn1.epicgames.com/offer/1d4d85b1051e41ee8f1a099e99d59f3f/EGS_EASPORTSFC26StandardEdition_EACANADA_S2_1200x1600-effee280c00b9890a0c5249d4b0e5c97?resize=1&w=360&h=480&quality=medium",
+      "alt": "RAYL_StorePortrait_1200x1600_1200x1600",
+      "paragraph": "Base Game",
+      "title": "Grand Theft Auto V Enhanced",
+      "blueBtn": "-80%",
+      "grayBtn": "",
+      "oldPrice": "13.99$",
+      "newPrice": "2.79$"
+    },
+    {
+      "id": 4,
+      "url": "https://cdn1.epicgames.com/spt-assets/f551e4fb31b34bd19991a31ed23522b1/silent-hill-2-19wjd.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_JustDieAlready_DoubleMoose_S6_1200x1600",
+      "paragraph": "Base Game",
+      "title": "Beacon of Neyda",
+      "blueBtn": "-10%",
+      "grayBtn": "",
+      "oldPrice": "6.99$",
+      "newPrice": "1.39$"
+    },
+    {
+      "id": 5,
+      "url": "https://cdn1.epicgames.com/spt-assets/b1b378261bbc491ba9cedafb3a9d0a57/full-metal-schoolgirl-v3o61.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "worker-simulator",
+      "paragraph": "Base Game",
+      "title": "GODBREAKERS",
+      "blueBtn": "",
+      "grayBtn": "",
+      "oldPrice": "",
+      "newPrice": "0.34$"
+    },
+    {
+      "id": 6,
+      "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_SherlockHolmesChapterOne_Frogwares_S2_1200x1600-668b5a592813212fab58b44cbd113733?resize=1&w=360&h=480&quality=medium",
+      "alt": "GS_SherlockHolmesChapterOne_Frogwares",
+      "paragraph": "Base Game",
+      "title": "Sherlock Holmes Chapter One",
+      "blueBtn": "",
+      "grayBtn": "",
+      "oldPrice": "",
+      "newPrice": "3.59$"
+    },
+    {
+      "id": 1,
+      "url": "https://cdn1.epicgames.com/ba8062bdcc1342c0b78743e3c6242575/offer/JC4-Reloaded-860x1148-860x1148-145b58e1d3d597871b8585f824540c57-860x1148-145b58e1d3d597871b8585f824540c57.jpg?resize=1&w=360&h=480&quality=medium",
+      "alt": "just cause4 reloaded",
+      "paragraph": "Base Game",
+      "title": "Just Cause 4 Reloaded",
+      "blueBtn": "-85%",
+      "grayBtn": "",
+      "oldPrice": "18.99$",
+      "newPrice": "2.84$"
+    },
+    {
+      "id": 2,
+      "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Crysis3Remastered_Crytek_S2_1200x1600-a98a0e5a8215ee2f2b768ec2140f5fd4?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_Crysis3Remastered_Crytek_S2_1200x1600",
+      "paragraph": "Base Game",
+      "title": "Crysis 3 Remastered",
+      "blueBtn": "-55%",
+      "grayBtn": "",
+      "oldPrice": "13.99$",
+      "newPrice": "6.29$"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn1.epicgames.com/offer/fc8d1547232045f6a23257cfd04ef3e8/RAYL_StorePortrait_1200x1600_1200x1600-fb12d95d31bf845aa33409748940b904?resize=1&w=360&h=480&quality=medium",
+      "alt": "RAYL_StorePortrait_1200x1600_1200x1600",
+      "paragraph": "Base Game",
+      "title": "RAYMAN® LEGENDS",
+      "blueBtn": "-80%",
+      "grayBtn": "",
+      "oldPrice": "13.99$",
+      "newPrice": "2.79$"
+    },
+    {
+      "id": 4,
+      "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_JustDieAlready_DoubleMoose_S6_1200x1600-577891f9b98a2f9fb55adcaae4ed5ebe?resize=1&w=360&h=480&quality=medium",
+      "alt": "EGS_JustDieAlready_DoubleMoose_S6_1200x1600",
+      "paragraph": "Base Game",
+      "title": "Just Die Already",
+      "blueBtn": "-80%",
+      "grayBtn": "",
+      "oldPrice": "6.99$",
+      "newPrice": "1.39$"
+    },
+    {
+      "id": 5,
+      "url": "https://cdn1.epicgames.com/spt-assets/48e3b70dc9274640a936aac55ffb1568/worker-simulator-6o5v5.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "worker-simulator",
+      "paragraph": "Base Game",
+      "title": "Worker Simulator",
+      "blueBtn": "-95%",
+      "grayBtn": "",
+      "oldPrice": "6.99$",
+      "newPrice": "0.34$"
+    },
+    {
+      "id": 6,
+      "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_SherlockHolmesChapterOne_Frogwares_S2_1200x1600-668b5a592813212fab58b44cbd113733?resize=1&w=360&h=480&quality=medium",
+      "alt": "GS_SherlockHolmesChapterOne_Frogwares",
+      "paragraph": "Base Game",
+      "title": "Sherlock Holmes Chapter One",
+      "blueBtn": "-90%",
+      "grayBtn": "",
+      "oldPrice": "35.99$",
+      "newPrice": "3.59$"
+    }
+  ],
+  "threepic2": [
+    {
+      "id": 1,
+      "url": "https://cdn2.unrealengine.com/egs-rl-the-simpsons-breaker-1920x1080-1d94467b6e0f.jpg?resize=1&w=854&h=480&quality=medium",
+      "alt": "en-egs-deals-of-the-week-breaker",
+      "title": "Rocket League",
+      "paragraph": "",
+      "blueBtn": "",
+      "grayBtn": "Learn More",
+      "oldPrice": "",
+      "newPrice": ""
+    },
+    {
+      "id": 2,
+      "url": "https://cdn2.unrealengine.com/egs-battlefield-6-season-1-breaker-1920x1080-4bc00b830664.jpg?resize=1&w=854&h=480&quality=medium",
+      "alt": "spider-man-zerowar-social",
+      "title": "Crysis 3 Remastered",
+      "paragraph": "",
+      "blueBtn": "-55%",
+      "grayBtn": "",
+      "oldPrice": "13.99$",
+      "newPrice": "6.29$"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn2.unrealengine.com/egs-33-immortals-pride-and-temperance-update-breaker-1920x1080-97f2bbb9f47b.jpg?resize=1&w=854&h=480&quality=medium",
+      "alt": "specials",
+      "title": "Check out all the deals for this week.",
+      "paragraph": "",
+      "blueBtn": "",
+      "grayBtn": "Browse",
+      "oldPrice": "",
+      "newPrice": ""
+    }
+  ],
+  "twoPic": [
+    {
+      "id": 1,
+      "titlelit": "Cattiva, Chillet & more Pals have arrived! Earn crossover skins, top Deviations, and free Lightforge Loot Crate draws!",
+      "titlebig": "Once Human",
+      "imgsrc": "https://cdn2.unrealengine.com/egs-once-human-palworld-collab-breaker-1920x1080-05e35b5633b9.jpg?resize=1&w=854&h=480&quality=medium",
+      "alt": "Bounty Star",
+      "off": "",
+      "before": "",
+      "after": "",
+      "button": "Play For Free"
+    },
+    {
+      "id": 2,
+      "titlelit": "Absorb your enemies' powers, master your combat flow, and conquer the universe in this co-op action roguelite!",
+      "titlebig": "GODBREAKERS",
+      "imgsrc": "https://cdn2.unrealengine.com/egs-godbreakers-breaker-1920x1080-375887cd9e21.jpg?resize=1&w=854&h=480&quality=medium",
+      "alt": "Bounty Star",
+      "off": "-10%",
+      "before": "$49.99",
+      "after": "$44.99",
+      "button": ""
+    }
+  ],
+  "featured": [
+    {
+      "id": 1,
+      "titlelit": "Base Game",
+      "titlebig": "Rocket League",
+      "imgsrc": "https://cdn1.epicgames.com/spt-assets/950c689c72814c19b60b6976a025e3ce/xociety-s19l3.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "This Week in Fortnite",
+      "href": "#",
+      "off": "",
+      "before": "49.44$",
+      "after": "44.40$",
+      "soon": "Comming Soon",
+      "firstrun": "First Run"
+    },
+    {
+      "id": 1,
+      "titlelit": "Base Game",
+      "titlebig": "Farcana",
+      "imgsrc": "https://cdn1.epicgames.com/spt-assets/8d136fc52fba40858d3c62001b9348b4/farcana-1iwbe.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "This Week in Fortnite",
+      "href": "#",
+      "off": "",
+      "before": "",
+      "after": "44.40$",
+      "soon": "",
+      "firstrun": "First Run"
+    },
+    {
+      "id": 2,
+      "titlelit": "Base Game",
+      "titlebig": "Out of Time",
+      "imgsrc": "https://cdn1.epicgames.com/spt-assets/bdec776c26534fbf9c36d08fb9ba2899/out-of-time-1rrd9.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "This Week in Fortnite",
+      "href": "#",
+      "off": "-11%",
+      "before": "49.44$",
+      "after": "44.40$",
+      "soon": "",
+      "firstrun": "First Run"
+    },
+    {
+      "id": 3,
+      "titlelit": "Base Game",
+      "titlebig": "The Heirloom",
+      "imgsrc": "https://cdn1.epicgames.com/spt-assets/e702bff322f942dda862add05dbbf6b9/the-heirloom-1akrz.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "This Week in Fortnite",
+      "href": "#",
+      "off": "",
+      "before": "",
+      "after": "44.40$",
+      "soon": "",
+      "firstrun": "First Run"
+    },
+    {
+      "id": 4,
+      "titlelit": "Base Game",
+      "titlebig": "Super Miaoyin",
+      "imgsrc": "https://cdn1.epicgames.com/spt-assets/1ad802c409e64dbc932557a01777959a/super-miaoyin-19qj6.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "This Week in Fortnite",
+      "href": "#",
+      "off": "",
+      "before": "",
+      "after": "44.40$",
+      "soon": "Comming Soon",
+      "firstrun": "First Run"
+    },
+    {
+      "id": 5,
+      "titlelit": "Base Game",
+      "titlebig": "Countrytale 2010",
+      "imgsrc": "https://cdn1.epicgames.com/spt-assets/afb8e8589ca340049cad8bca64ff3182/countrytale-2010-17sgf.png?resize=1&w=360&h=480&quality=medium",
+      "alt": "This Week in Fortnite",
+      "href": "#",
+      "off": "",
+      "before": "",
+      "after": "44.40$",
+      "soon": "Comming Soon",
+      "firstrun": "First Run"
+    }
+  ]
+}

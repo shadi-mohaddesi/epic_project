@@ -1,0 +1,43 @@
+import loadbanner from "./banner.js";
+import loadDiscoverMenu from "./discover.js";
+import loadFeatured from "./featured.js";
+import loadTitles from "./footerAcTitles.js";
+import loadFreeGames from "./freeGames.js";
+import loadListTitle from "./gameListTitles.js";
+import getData from "./header.js";
+import getRightData, { startLeftCycle } from "./hero.js";
+import loadlines1 from "./lines1.js";
+import getMostPlayedData from "./mostPlayed.js";
+import getSliders from "./slider.js";
+import getSlider1 from "./slider1.js";
+import loadThreePic from "./threePic.js";
+import loadThreePic1 from "./threePic1.js";
+import loadThreePic2 from "./threePic2.js";
+import getSlider2 from "./TopNewRelslider.js";
+import getListData from "./topSellers.js";
+import getUpComingWishListedData from "./TopUpcomingWishlisted.js";
+import loadTrending from "./trending.js";
+import loadTwoPic from "./twoPic.js";
+
+getData();
+loadDiscoverMenu();
+// getLeftData()
+getRightData();
+startLeftCycle();
+getSliders();
+loadThreePic();
+loadThreePic1();
+getSlider1();
+loadListTitle();
+getListData();
+getMostPlayedData();
+getUpComingWishListedData();
+loadFreeGames();
+loadbanner();
+loadTrending();
+loadlines1();
+loadTitles();
+getSlider2();
+loadThreePic2(); 
+loadTwoPic();
+loadFeatured()

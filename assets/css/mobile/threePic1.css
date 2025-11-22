@@ -1,0 +1,81 @@
+.threePic1 {
+  width: 95%;
+  height: 1180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto 64px;
+}
+.threePic1 .eachPic {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  overflow: hidden;
+  
+}
+.threePic1 .eachPic img{
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.threePic1 .eachPic .texts{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: start;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.threePic1 .eachPic .texts .title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.threePic1 .eachPic .texts .paragraph{
+  font-size: 14px;
+  color: rgba(182, 182, 182, 0.74) !important;
+}
+.threePic1 .eachPic .buttons{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+}
+.threePic1 .eachPic .buttons .blueBtn{
+  width: 32px;
+  height: 18px;
+  font-size: 12px;
+  background-color: rgb(38, 187, 255) !important;
+  color: #000000;
+  border:none;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.threePic1 .eachPic .buttons>del{
+  color: gray;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+.threePic1 .eachPic .buttons>span{
+  font-size: 14px;
+}
+.threePic1 .eachPic .buttons .grayBtn{
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  line-height: 140%;
+  background-color: #ffffff26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}

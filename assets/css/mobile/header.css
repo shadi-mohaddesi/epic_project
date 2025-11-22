@@ -1,0 +1,14 @@
+.navbar-brand{
+    color: white !important;
+}
+.navbar-toggler , .navbar-toggler-icon{
+    color: white !important;
+    
+}
+.nav-link{
+    color: white !important;
+}
+.primary_btn{
+    align-items: center;
+    justify-content: center;
+}

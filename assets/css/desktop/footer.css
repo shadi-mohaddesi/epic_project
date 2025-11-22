@@ -1,0 +1,224 @@
+.footer{
+    width: 100%;
+    height: 751px;
+    padding: 80px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    background-color: #18181c;
+    color: rgba(255, 255, 255, 0.65);
+}
+.footer .top{
+   flex-direction: row;
+    /* gap: 2.5rem; */
+    /* background-color: red; */
+    height: 20%;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.footer .top>div>ul{
+    color: #ffffffa6;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+.footer .top>div>ul li{
+    width: 28px;
+    height: 28px;
+}
+.footer .top>div>ul li a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffffa6;
+}
+.footer .top>div>ul li a svg{
+    width: 28px;
+    height: 28px;
+    color: #ffffffa6 !important;
+}
+
+
+
+.accordion .accordion-item {
+border-top: 1px solid rgba(128, 128, 128, 0.404) !important;
+border-bottom: none !important;
+}
+
+
+.accordion-button::after {
+  filter: invert(60%) sepia(90%) saturate(200%) hue-rotate(200deg);
+}
+.accordion-button:focus {
+  box-shadow: none !important; /* removes focus outline */
+}
+
+.accordion-button{
+    padding-left: 0 !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+.accordion .accordion-button:focus,
+.accordion .accordion-button:focus-visible,
+.accordion .accordion-button:not(.collapsed):focus {
+  box-shadow: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+/* 3) Ensure the collapse panel itself doesn’t draw a top border */
+.accordion .accordion-collapse {
+  border: none !important;
+}
+
+.accordion-body a {
+  color: #ffffffa6; /* orange links */
+  text-decoration: none; /* optional: remove underline */
+  font-size: 16px;
+  font-weight: 500;
+}
+.accordion-body a:focus,
+.accordion-body a:active,
+.accordion .accordion-body a:focus-visible {
+  outline: none !important;       /* removes default outline */
+  border: none !important;        /* removes any border */
+  box-shadow: none !important;    /* removes Bootstrap focus shadow */
+}
+.accordion-body{
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+}
+.accordion-body:focus{
+    border: none !important;
+    outline: none !important;
+}
+.accordion-body ul{
+    padding-left: 0 !important;
+}
+
+.accordion-body ul li a:hover{
+color: white !important;
+}
+.accordion .accordion-body .list-group,
+.accordion .accordion-body .list-group-item,
+.accordion .accordion-body .nav,
+.accordion .accordion-body .nav-link {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+.footer .copyRight{
+  width: 100%;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+
+
+/* new */
+  .accordion .accordion-collapse {
+    display: block !important;
+    height: auto !important;
+    visibility: visible !important;
+  }
+
+  /* آکاردیون آیتم‌ها کنار هم */
+  #accordionFlushExample {
+    display: flex;
+    flex-wrap: wrap; /* اگر تعداد زیاد شد، به خط بعدی بره */
+    gap: 2rem;       /* فاصله بین ستون‌ها */
+  }
+
+  .accordion-item {
+    flex: 1;         /* همه ستون‌ها عرض مساوی بگیرن */
+    min-width: 200px; /* حداقل عرض هر ستون */
+    border: none;     /* خط‌های آکاردیون حذف بشن */
+  }
+
+  /* دکمه‌ها مثل تیتر ساده باشن */
+  .accordion-button {
+    pointer-events: none; /* غیرقابل کلیک */
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  /* حذف فلش SVG پیش‌فرض بوت‌استرپ */
+  .accordion-button::after {
+    display: none !important;
+  }
+
+  /* بدنه همیشه باز باشه */
+  .accordion-collapse {
+    display: block !important;
+    height: auto !important;
+    visibility: visible !important;
+  }
+
+  /* دکمه‌ها مثل متن ساده باشن */
+  .accordion-button {
+    pointer-events: none; /* غیرقابل کلیک */
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+
+/* links */
+.footer .links {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer .links a {
+  display: inline-block;
+  width: 20%;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: rgba(170, 170, 170, 1);
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+/* back to top */
+.footer .back-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.footer .back-top .back {
+  width: 146.66px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #ffffff26;
+}
+.footer .back-top .back a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-family: epic-md;
+  font-size: 14px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.footer .back-top .back a svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
