@@ -1,4 +1,101 @@
 {
+  "leftHero": [
+    {
+      "id": 1,
+      "image": "https://cdn2.unrealengine.com/egs-fortnite-sidekicks-carousel-desktop-1920x1080-ab679c4d991d.jpg?resize=1&w=1280&h=720&quality=medium",
+      "title": "fortnite SIDEKICKS",
+      "prepare": "Available Now",
+      "caption": "The squad just got fluffier. Fortnite Sidekicks are here!",
+      "price": "",
+      "playBtn": {
+        "text": "Learn More",
+        "borderRadius": "6px"
+      },
+      "wishListBtn": {
+        "text": "",
+        "color": "",
+        "borderRadius": ""
+      }
+    },
+    {
+      "id": 2,
+      "image": "https://cdn2.unrealengine.com/egs-honkai-star-rail-3-7-carousel-desktop-1920x1080-f0519e04a0b5.jpg?resize=1&w=1280&h=720&quality=medium",
+      "title": "Honkai: Star Rail",
+      "prepare": "New Cyrene Is Here!",
+      "caption": "Cyrene (Remembrance: Ice) is on rate-up!",
+      "price": "Free",
+      "playBtn": {
+        "text": "Play For Free",
+        "borderRadius": "6px"
+      },
+      "wishListBtn": {
+        "text": "Add to Wishlist",
+        "color": "#eeeeee",
+        "borderRadius": "6px"
+      }
+    },
+    {
+      "id": 3,
+      "image": "https://cdn2.unrealengine.com/egs-resident-evil-requiem-carousel-desktop-1920x1080-92a46db2299b.jpg?resize=1&w=1280&h=720&quality=medium",
+      "title": "Resident Evil Requiem",
+      "prepare": "The 9th title in the mainline series!",
+      "caption": "Requiem for the dead. Nightmare for the living. Prepare to escape death in a heart-stopping experience that will chill you to your core.",
+      "price": "52.49$",
+      "playBtn": {
+        "text": "Pre-Purchase Now",
+        "borderRadius": "6px"
+      },
+      "wishListBtn": {
+        "text": "Add to Wishlist",
+        "color": "#eeeeee",
+        "borderRadius": "6px"
+      }
+    },
+    {
+      "id": 4,
+      "image": "https://cdn2.unrealengine.com/egs-raven2-carousel-desktop-1920x1080-e8544ecf06ab.jpg?resize=1&w=1280&h=720&quality=medium",
+      "title": "RAVEN",
+      "prepare": "Forge Your Own Epic Tale",
+      "caption": "Born in Blood. Built for War. Enter RAVEN2, the brutal dark fantasy MMORPG.",
+      "price": "Free",
+      "playBtn": {
+        "text": "Play Now",
+        "borderRadius": "6px"
+      },
+      "wishListBtn": {
+        "text": "Add to Wishlist",
+        "color": "#eeeeee",
+        "borderRadius": "6px"
+      }
+    }
+  ],
+
+  "rightHero": [
+    {
+      "id": 1,
+      "url": "https://cdn2.unrealengine.com/en-egs-fortnite-sidekicks-carousel-thumb-1200x1600-6135cc294bd5.jpg?resize=1&w=96&h=128&quality=medium",
+      "alt": "fortnite",
+      "title": "fortnite"
+    },
+    {
+      "id": 2,
+      "url": "https://cdn2.unrealengine.com/en-egs-honkai-star-rail-3-7-carousel-thumb-1200x1600-32d8a735e9ec.jpg?resize=1&w=96&h=128&quality=medium",
+      "alt": "honkai",
+      "title": "Honkai: Star Rail"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn2.unrealengine.com/re-egs-resident-evil-requiem-carousel-thumb-1200x1600-27a16acb6b8b.jpg?resize=1&w=96&h=128&quality=medium",
+      "alt": "resident",
+      "title": "Resident Evil Requiem"
+    },
+    {
+      "id": 4,
+      "url": "https://cdn2.unrealengine.com/egs-raven2-carousel-thumb-1200x1600-c29f78b299b9.jpg?resize=1&w=96&h=128&quality=medium",
+      "alt": "raven-2",
+      "title": "RAVEN2"
+    }
+  ],
   "navbar": [
     {
       "id": "storeLogo",
@@ -222,7 +319,7 @@
     }
   ],
 
-  "threepic": [ 
+  "threepic": [
     {
       "id": 1,
       "url": "https://cdn2.unrealengine.com/fneco-keyart-25-egs-launcher-keyart-breaker-1920x1080-1920x1080-0b655fc3a84f.jpg?resize=1&w=854&h=480&quality=medium",
@@ -617,7 +714,7 @@
       "newPrice": "",
       "blueBtn": ""
     }
-  ], 
+  ],
   "freeGames": [
     {
       "id": 1,
