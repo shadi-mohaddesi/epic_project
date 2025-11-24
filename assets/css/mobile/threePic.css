@@ -12,6 +12,7 @@
   flex-direction: column;
   border-radius: 6px;
   overflow: hidden;
+  margin-bottom: 6px;
 }
 .threePic .eachPic img {
   height: 70%;
