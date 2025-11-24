@@ -71,6 +71,9 @@
 }
 .hero .right div a{
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .hero .right a img {
