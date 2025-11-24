@@ -1,7 +1,7 @@
 .threePic {
   width: 95%;
   height: 1180px;
-  justify-content: start;
+  justify-content: space-between;
   margin: 0 auto 32px;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,6 @@
   flex-direction: column;
   border-radius: 6px;
   overflow: hidden;
-  margin-bottom: 6px;
 }
 .threePic .eachPic img {
   height: 70%;
