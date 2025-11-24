@@ -55,7 +55,7 @@
 .trending .items .eachItem .text {
   height: 25%;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: flex-start;
   gap: 8px;
 }
